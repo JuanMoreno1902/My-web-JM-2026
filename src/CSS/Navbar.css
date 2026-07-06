@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #020617;
+  color: white;
+  font-family: sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  z-index: 1000;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 80px;
+
+  /* Glassmorphism */
+  background: rgba(15, 23, 42, 0.15);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+
+  transition: all 0.3s ease;
+}
+
+.logo h2 {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 35px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+
+  transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #38bdf8;
+}
+
+.btn-login {
+  background: transparent;
+  border: 1px solid #38bdf8;
+
+  color: white;
+
+  padding: 10px 20px;
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+
+.btn-login:hover {
+  background: #38bdf8;
+  color: #020617;
+}
+
+.glow {
+  position: fixed;
+
+  top: -150px;
+  right: 200px;
+
+  width: 450px;
+  height: 450px;
+
+  border-radius: 50%;
+
+  background: rgba(59, 130, 246, 0.35);
+
+  filter: blur(120px);
+
+  pointer-events: none;
+  z-index: -1;
+}

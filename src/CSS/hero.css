@@ -1,0 +1,37 @@
+@media(max-width:900px){
+
+.hero{
+
+    flex-direction:column-reverse;
+
+    text-align:center;
+
+    gap:50px;
+}
+
+.hero-left{
+
+    width:100%;
+}
+
+.hero-left h1{
+
+    font-size:3rem;
+}
+
+.buttons{
+
+    justify-content:center;
+}
+
+.badges{
+
+    justify-content:center;
+}
+
+.hero-right img{
+
+    width:200px;
+}
+
+}
