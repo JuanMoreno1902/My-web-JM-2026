@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { projects } from "./data/projects";
+import { projects } from "./Data/projects";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero.jsx";
