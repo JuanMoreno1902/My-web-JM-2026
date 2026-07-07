@@ -1,8 +1,6 @@
 import TorbullByShopify from "../assets/TorbullByShopify.png";
 import UI_Home_bright from "../assets/UI_Home_bright.png";
 import WAZUHsiem from "../assets/WAZUHsiem.png";
-import WazuhProjectPDF from "../assets/WazuhProject.pdf";
-import WazuhProjectDOCX from "../assets/WazuhProject.docx";
 
 export const projects = [
   {
@@ -77,9 +75,9 @@ export const projects = [
       "Redes"
     ],
 
-    pdf: WazuhProjectPDF,
+    pdf: "/WazuhProject.pdf",
 
-    word: WazuhProjectDOCX,
+    word: "/WazuhProject.docx",
 
     github:
       "",

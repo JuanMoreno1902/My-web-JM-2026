@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin, FaDownload, FaArrowDown } from "react-icons/fa";
 import portada from "../assets/portada.png";
-import hojaVida from "../assets/juanmoreno_CV.pdf";
+
 
 export default function Hero() {
   return (
@@ -76,7 +76,7 @@ export default function Hero() {
               LinkedIn
             </a>
 
-            <a href={hojaVida} target="_blank" className="flex items-center gap-2 rounded-xl border border-slate-700 px-6 py-4 hover:border-blue-500">
+            <a href="/juanmoreno_CV.pdf" target="_blank" className="flex items-center gap-2 rounded-xl border border-slate-700 px-6 py-4 hover:border-blue-500">
               <FaDownload />
               CV
             </a>
