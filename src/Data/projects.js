@@ -1,8 +1,14 @@
+import TorbullByShopify from "../assets/TorbullByShopify.png";
+import UI_Home_bright from "../assets/UI_Home_bright.png";
+import WAZUHsiem from "../assets/WAZUHsiem.png";
+import WazuhProjectPDF from "../assets/WazuhProject.pdf";
+import WazuhProjectDOCX from "../assets/WazuhProject.docx";
+
 export const projects = [
   {
     id: 1,
     title: "Pagina web por Shopify - Torbull SAS",
-    image: "src/assets/TorbullByShopify.png",
+    image: TorbullByShopify,
 
     shortDescription:
       "Pagina web desarrollada con Shopify para la empresa Torbull SAS, especializada en la venta de productos de maquinaria pesada.",
@@ -27,7 +33,7 @@ export const projects = [
   {
     id: 2,
     title: "CHATTERNOW - ECHO",
-    image: "src/assets/UI_Home_bright.png",
+    image: UI_Home_bright,
 
     shortDescription:
       "Pagina web desarrollada como prueba tecnica para poner a prueba mis habilidades en el desarrollo de aplicaciones web.",
@@ -55,7 +61,7 @@ export const projects = [
   {
      id: 3,
     title: "Proyecto de Grado",
-    image: "src/assets/WAZUHsiem.png",
+    image: WAZUHsiem,
 
     shortDescription:
       "Sistema de seguridad desarrollado como proyecto de grado para la universidad (UTB), utilizando Wazuh SIEM para la detección de amenazas y vulnerabilidades.",
@@ -71,9 +77,9 @@ export const projects = [
       "Redes"
     ],
 
-    pdf: "src/assets/WazuhProject.pdf",
+    pdf: WazuhProjectPDF,
 
-    word: "src/assets/WazuhProject.docx",
+    word: WazuhProjectDOCX,
 
     github:
       "",

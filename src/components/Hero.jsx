@@ -1,5 +1,8 @@
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin, FaDownload, FaArrowDown } from "react-icons/fa";
+import portada from "../assets/portada.png";
+import hojaVida from "../assets/juanmoreno_CV.pdf";
+
 export default function Hero() {
   return (
     <section id="inicio"className="relative overflow-hidden min-h-[88vh] flex items-center">
@@ -73,7 +76,7 @@ export default function Hero() {
               LinkedIn
             </a>
 
-            <a href="src\assets\Hoja de Vida - JuanMoreno.pdf" className="flex items-center gap-2 rounded-xl border border-slate-700 px-6 py-4 hover:border-blue-500">
+            <a href={hojaVida} target="_blank" className="flex items-center gap-2 rounded-xl border border-slate-700 px-6 py-4 hover:border-blue-500">
               <FaDownload />
               CV
             </a>
@@ -92,7 +95,7 @@ export default function Hero() {
           <div className="absolute inset-0 rounded-full bg-blue-600 blur-[120px] opacity-30"></div>
 
           <img
-            src="src\assets\portada (2).png"
+            src={portada}
             alt="Juan Alejandro"
             className="relative h-80 w-80 rounded-full border-4 border-slate-700 object-cover shadow-2xl lg:h-107.5 lg:w-107.5"
           />
